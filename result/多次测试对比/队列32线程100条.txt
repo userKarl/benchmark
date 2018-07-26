@@ -1,0 +1,100 @@
+2018-07-26 18:59:36.610  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：15.9724 ms 插入数据耗时：61.9341 ms，总耗时：77.9065 ms
+2018-07-26 18:59:36.638  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：5.3506 ms，插入数据耗时：22.0482 ms，总耗时：27.3988 ms
+2018-07-26 18:59:36.657  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：2.7747 ms，插入数据耗时：15.3052 ms，总耗时：18.0799 ms
+2018-07-26 18:59:36.690  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.2736 ms，插入数据耗时：31.4945 ms，总耗时：32.7681 ms
+2018-07-26 18:59:36.705  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.1807 ms，插入数据耗时：14.0383 ms，总耗时：15.219 ms
+2018-07-26 18:59:36.721  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.4545 ms，插入数据耗时：13.8091 ms，总耗时：15.2636 ms
+2018-07-26 18:59:36.735  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：2.0442 ms，插入数据耗时：11.751 ms，总耗时：13.7952 ms
+2018-07-26 18:59:36.748  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5577 ms，插入数据耗时：12.763 ms，总耗时：13.3207 ms
+2018-07-26 18:59:36.762  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4484 ms，插入数据耗时：13.4653 ms，总耗时：13.9137 ms
+2018-07-26 18:59:36.776  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4633 ms，插入数据耗时：13.5997 ms，总耗时：14.063 ms
+2018-07-26 18:59:36.790  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3951 ms，插入数据耗时：12.4824 ms，总耗时：12.8775 ms
+2018-07-26 18:59:36.801  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3906 ms，插入数据耗时：10.5301 ms，总耗时：10.9207 ms
+2018-07-26 18:59:36.814  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4282 ms，插入数据耗时：12.7837 ms，总耗时：13.2119 ms
+2018-07-26 18:59:36.827  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.677 ms， 插入数据耗时：11.5269 ms，总耗时：13.2039 ms
+2018-07-26 18:59:36.838  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4269 ms，插入数据耗时：10.094 ms，总耗时：10.5209 ms
+2018-07-26 18:59:36.849  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.405 ms， 插入数据耗时：10.2359 ms，总耗时：10.6409 ms
+2018-07-26 18:59:36.860  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4438 ms，插入数据耗时：10.2688 ms，总耗时：10.7126 ms
+2018-07-26 18:59:36.871  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.473 ms， 插入数据耗时：10.2321 ms，总耗时：10.7051 ms
+2018-07-26 18:59:36.882  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4628 ms，插入数据耗时：10.4263 ms，总耗时：10.8891 ms
+2018-07-26 18:59:36.894  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6177 ms，插入数据耗时：10.8362 ms，总耗时：11.4539 ms
+2018-07-26 18:59:36.907  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.7315 ms，插入数据耗时：10.6876 ms，总耗时：11.4191 ms
+2018-07-26 18:59:36.918  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4424 ms，插入数据耗时：10.2495 ms，总耗时：10.6919 ms
+2018-07-26 18:59:36.930  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.42 ms，  插入数据耗时：11.2562 ms，总耗时：11.6762 ms
+2018-07-26 18:59:36.941  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4735 ms，插入数据耗时：10.0688 ms，总耗时：10.5423 ms
+2018-07-26 18:59:36.953  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.423 ms， 插入数据耗时：11.5697 ms，总耗时：11.9927 ms
+2018-07-26 18:59:36.964  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4355 ms，插入数据耗时：10.5477 ms，总耗时：10.9832 ms
+2018-07-26 18:59:36.975  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4518 ms，插入数据耗时：10.8251 ms，总耗时：11.2769 ms
+2018-07-26 18:59:36.987  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4072 ms，插入数据耗时：10.5479 ms，总耗时：10.9551 ms
+2018-07-26 18:59:36.998  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4155 ms，插入数据耗时：10.2955 ms，总耗时：10.711 ms
+2018-07-26 18:59:37.009  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4602 ms，插入数据耗时：10.5071 ms，总耗时：10.9673 ms
+2018-07-26 18:59:37.022  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.406 ms， 插入数据耗时：12.2217 ms，总耗时：12.6277 ms
+2018-07-26 18:59:37.032  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3884 ms，插入数据耗时：10.0452 ms，总耗时：10.4336 ms
+2018-07-26 18:59:37.043  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4047 ms，插入数据耗时：10.4546 ms，总耗时：10.8593 ms
+2018-07-26 18:59:37.055  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4615 ms，插入数据耗时：10.883 ms，总耗时：11.3445 ms
+2018-07-26 18:59:37.067  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4024 ms，插入数据耗时：11.7798 ms，总耗时：12.1822 ms
+2018-07-26 18:59:37.079  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.408 ms， 插入数据耗时：10.9662 ms，总耗时：11.3742 ms
+2018-07-26 18:59:37.093  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.394 ms， 插入数据耗时：13.3696 ms，总耗时：13.7636 ms
+2018-07-26 18:59:37.105  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4047 ms，插入数据耗时：11.63 ms，总耗时：12.0347 ms
+2018-07-26 18:59:37.119  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4279 ms，插入数据耗时：13.567 ms，总耗时：13.9949 ms
+2018-07-26 18:59:37.133  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6164 ms，插入数据耗时：12.7196 ms，总耗时：13.336 ms
+2018-07-26 18:59:37.146  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.7714 ms，插入数据耗时：11.3896 ms，总耗时：12.161 ms
+2018-07-26 18:59:37.161  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.9585 ms，插入数据耗时：13.5373 ms，总耗时：14.4958 ms
+2018-07-26 18:59:37.174  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4753 ms，插入数据耗时：12.3522 ms，总耗时：12.8275 ms
+2018-07-26 18:59:37.185  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3882 ms，插入数据耗时：10.9451 ms，总耗时：11.3333 ms
+2018-07-26 18:59:37.197  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4696 ms，插入数据耗时：10.7324 ms，总耗时：11.202 ms
+2018-07-26 18:59:37.209  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.422 ms， 插入数据耗时：12.0902 ms，总耗时：12.5122 ms
+2018-07-26 18:59:37.223  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.1729 ms，插入数据耗时：11.7495 ms，总耗时：12.9224 ms
+2018-07-26 18:59:37.233  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.403 ms， 插入数据耗时：10.2164 ms，总耗时：10.6194 ms
+2018-07-26 18:59:37.244  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4227 ms，插入数据耗时：10.1016 ms，总耗时：10.5243 ms
+2018-07-26 18:59:37.256  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.427 ms， 插入数据耗时：11.3323 ms，总耗时：11.7593 ms
+2018-07-26 18:59:37.267  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5548 ms，插入数据耗时：10.3904 ms，总耗时：10.9452 ms
+2018-07-26 18:59:37.279  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4271 ms，插入数据耗时：10.6479 ms，总耗时：11.075 ms
+2018-07-26 18:59:37.290  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3906 ms，插入数据耗时：10.7901 ms，总耗时：11.1807 ms
+2018-07-26 18:59:37.301  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4979 ms，插入数据耗时：10.5943 ms，总耗时：11.0922 ms
+2018-07-26 18:59:37.327  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：1.4741 ms，插入数据耗时：24.0702 ms，总耗时：25.5443 ms
+2018-07-26 18:59:37.338  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4262 ms，插入数据耗时：10.4696 ms，总耗时：10.8958 ms
+2018-07-26 18:59:37.349  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4272 ms，插入数据耗时：10.2266 ms，总耗时：10.6538 ms
+2018-07-26 18:59:37.360  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4525 ms，插入数据耗时：10.4936 ms，总耗时：10.9461 ms
+2018-07-26 18:59:37.372  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4214 ms，插入数据耗时：10.6179 ms，总耗时：11.0393 ms
+2018-07-26 18:59:37.383  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4085 ms，插入数据耗时：10.6024 ms，总耗时：11.0109 ms
+2018-07-26 18:59:37.394  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4042 ms，插入数据耗时：10.8467 ms，总耗时：11.2509 ms
+2018-07-26 18:59:37.407  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6809 ms，插入数据耗时：11.2558 ms，总耗时：11.9367 ms
+2018-07-26 18:59:37.422  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4191 ms，插入数据耗时：15.0142 ms，总耗时：15.4333 ms
+2018-07-26 18:59:37.433  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4734 ms，插入数据耗时：10.2465 ms，总耗时：10.7199 ms
+2018-07-26 18:59:37.444  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4218 ms，插入数据耗时：10.1671 ms，总耗时：10.5889 ms
+2018-07-26 18:59:37.455  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4268 ms，插入数据耗时：10.3091 ms，总耗时：10.7359 ms
+2018-07-26 18:59:37.467  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6384 ms，插入数据耗时：11.0977 ms，总耗时：11.7361 ms
+2018-07-26 18:59:37.478  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4521 ms，插入数据耗时：10.2082 ms，总耗时：10.6603 ms
+2018-07-26 18:59:37.489  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4246 ms，插入数据耗时：10.4062 ms，总耗时：10.8308 ms
+2018-07-26 18:59:37.501  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5598 ms，插入数据耗时：11.3522 ms，总耗时：11.912 ms
+2018-07-26 18:59:37.514  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6403 ms，插入数据耗时：11.8188 ms，总耗时：12.4591 ms
+2018-07-26 18:59:37.525  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4099 ms，插入数据耗时：10.6473 ms，总耗时：11.0572 ms
+2018-07-26 18:59:37.537  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4062 ms，插入数据耗时：11.2675 ms，总耗时：11.6737 ms
+2018-07-26 18:59:37.550  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4857 ms，插入数据耗时：12.1316 ms，总耗时：12.6173 ms
+2018-07-26 18:59:37.562  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.7865 ms，插入数据耗时：11.064 ms，总耗时：11.8505 ms
+2018-07-26 18:59:37.574  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4072 ms，插入数据耗时：10.6762 ms，总耗时：11.0834 ms
+2018-07-26 18:59:37.585  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4248 ms，插入数据耗时：10.3921 ms，总耗时：10.8169 ms
+2018-07-26 18:59:37.595  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4097 ms，插入数据耗时：10.2361 ms，总耗时：10.6458 ms
+2018-07-26 18:59:37.607  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4741 ms，插入数据耗时：10.5667 ms，总耗时：11.0408 ms
+2018-07-26 18:59:37.625  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.7198 ms，插入数据耗时：16.7684 ms，总耗时：17.4882 ms
+2018-07-26 18:59:37.639  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4421 ms，插入数据耗时：13.4417 ms，总耗时：13.8838 ms
+2018-07-26 18:59:37.658  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3797 ms，插入数据耗时：19.1887 ms，总耗时：19.5684 ms
+2018-07-26 18:59:37.673  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5226 ms，插入数据耗时：13.1456 ms，总耗时：13.6682 ms
+2018-07-26 18:59:37.683  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3649 ms，插入数据耗时：9.9033 ms，总耗时：10.2682 ms
+2018-07-26 18:59:37.694  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4701 ms，插入数据耗时：10.486 ms，总耗时：10.9561 ms
+2018-07-26 18:59:37.705  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5046 ms，插入数据耗时：10.089 ms，总耗时：10.5936 ms
+2018-07-26 18:59:37.718  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.5407 ms，插入数据耗时：11.7653 ms，总耗时：12.306 ms
+2018-07-26 18:59:37.729  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.43 ms，  插入数据耗时：10.016 ms，总耗时：10.446 ms
+2018-07-26 18:59:37.740  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3849 ms，插入数据耗时：10.5065 ms，总耗时：10.8914 ms
+2018-07-26 18:59:37.750  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4537 ms，插入数据耗时：9.937 ms，总耗时：10.3907 ms
+2018-07-26 18:59:37.762  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4362 ms，插入数据耗时：10.974 ms，总耗时：11.4102 ms
+2018-07-26 18:59:37.772  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3928 ms，插入数据耗时：9.9905 ms，总耗时：10.3833 ms
+2018-07-26 18:59:37.784  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3869 ms，插入数据耗时：10.8668 ms，总耗时：11.2537 ms
+2018-07-26 18:59:37.794  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3786 ms，插入数据耗时：9.8121 ms，总耗时：10.1907 ms
+2018-07-26 18:59:37.805  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4877 ms，插入数据耗时：9.8532 ms，总耗时：10.3409 ms
+2018-07-26 18:59:37.815  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3945 ms，插入数据耗时：10.1127 ms，总耗时：10.5072 ms
+2018-07-26 18:59:37.826  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.3722 ms，插入数据耗时：9.8497 ms，总耗时：10.2219 ms
+2018-07-26 18:59:37.837  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4202 ms，插入数据耗时：10.1455 ms，总耗时：10.5657 ms
+2018-07-26 18:59:37.848  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.4653 ms，插入数据耗时：10.5831 ms，总耗时：11.0484 ms
+2018-07-26 18:59:37.860  INFO 44388 --- [nio-9001-exec-2] com.zd.controller.UserController         : 使用队列,32线程插入100条数据，构造数据耗时：0.6795 ms，插入数据耗时：11.1107 ms，总耗时：11.7902 ms

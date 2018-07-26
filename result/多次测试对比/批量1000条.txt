@@ -1,0 +1,100 @@
+2018-07-26 18:25:23.141  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.1444 ms，插入数据耗时：695.2724 ms，总耗时：699.4168 ms
+2018-07-26 18:25:23.823  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.9101 ms，插入数据耗时：677.2797 ms，总耗时：682.1898 ms
+2018-07-26 18:25:24.505  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.9448 ms，插入数据耗时：677.7332 ms，总耗时：681.678 ms
+2018-07-26 18:25:25.177  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.7105 ms，插入数据耗时：668.344 ms，总耗时：672.0545 ms
+2018-07-26 18:25:25.829  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.3416 ms，插入数据耗时：646.2429 ms，总耗时：651.5845 ms
+2018-07-26 18:25:26.470  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.3691 ms，插入数据耗时：636.0055 ms，总耗时：640.3746 ms
+2018-07-26 18:25:27.172  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.6736 ms，插入数据耗时：696.4144 ms，总耗时：702.088 ms
+2018-07-26 18:25:27.838  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.3209 ms，插入数据耗时：661.5067 ms，总耗时：665.8276 ms
+2018-07-26 18:25:28.476  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.2902 ms，插入数据耗时：633.6891 ms，总耗时：637.9793 ms
+2018-07-26 18:25:29.151  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.2916 ms，插入数据耗时：670.3886 ms，总耗时：674.6802 ms
+2018-07-26 18:25:29.781  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.4206 ms，插入数据耗时：625.5861 ms，总耗时：630.0067 ms
+2018-07-26 18:25:30.421  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.6358 ms，插入数据耗时：635.3727 ms，总耗时：640.0085 ms
+2018-07-26 18:25:31.095  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.91 ms，  插入数据耗时：668.2234 ms，总耗时：673.1334 ms
+2018-07-26 18:25:31.803  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.5929 ms，插入数据耗时：703.8293 ms，总耗时：708.4222 ms
+2018-07-26 18:25:32.540  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.5478 ms，插入数据耗时：731.3417 ms，总耗时：736.8895 ms
+2018-07-26 18:25:33.230  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.8755 ms，插入数据耗时：685.1587 ms，总耗时：689.0342 ms
+2018-07-26 18:25:33.889  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6058 ms，插入数据耗时：655.2064 ms，总耗时：658.8122 ms
+2018-07-26 18:25:34.619  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5136 ms，插入数据耗时：727.0064 ms，总耗时：730.52 ms
+2018-07-26 18:25:35.291  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6919 ms，插入数据耗时：667.7758 ms，总耗时：671.4677 ms
+2018-07-26 18:25:35.992  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6797 ms，插入数据耗时：696.8753 ms，总耗时：700.555 ms
+2018-07-26 18:25:36.693  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.7559 ms，插入数据耗时：697.8154 ms，总耗时：701.5713 ms
+2018-07-26 18:25:37.349  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.732 ms， 插入数据耗时：651.1355 ms，总耗时：654.8675 ms
+2018-07-26 18:25:38.025  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.9935 ms，插入数据耗时：672.8014 ms，总耗时：676.7949 ms
+2018-07-26 18:25:38.688  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.614 ms， 插入数据耗时：658.7085 ms，总耗时：662.3225 ms
+2018-07-26 18:25:39.358  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.0509 ms，插入数据耗时：665.4981 ms，总耗时：669.549 ms
+2018-07-26 18:25:40.063  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.4992 ms，插入数据耗时：700.5389 ms，总耗时：705.0381 ms
+2018-07-26 18:25:40.759  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.3265 ms，插入数据耗时：690.4136 ms，总耗时：695.7401 ms
+2018-07-26 18:25:41.433  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.9768 ms，插入数据耗时：669.8708 ms，总耗时：673.8476 ms
+2018-07-26 18:25:42.074  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6883 ms，插入数据耗时：637.8327 ms，总耗时：641.521 ms
+2018-07-26 18:25:42.771  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6565 ms，插入数据耗时：692.8054 ms，总耗时：696.4619 ms
+2018-07-26 18:25:43.425  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.9319 ms，插入数据耗时：650.1188 ms，总耗时：654.0507 ms
+2018-07-26 18:25:44.078  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.8866 ms，插入数据耗时：649.0432 ms，总耗时：652.9298 ms
+2018-07-26 18:25:44.826  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.8465 ms，插入数据耗时：743.5598 ms，总耗时：747.4063 ms
+2018-07-26 18:25:45.501  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4625 ms，插入数据耗时：671.6683 ms，总耗时：675.1308 ms
+2018-07-26 18:25:46.200  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.4931 ms，插入数据耗时：693.1081 ms，总耗时：698.6012 ms
+2018-07-26 18:25:46.829  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.052 ms， 插入数据耗时：625.4783 ms，总耗时：629.5303 ms
+2018-07-26 18:25:47.521  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：6.0981 ms，插入数据耗时：685.7005 ms，总耗时：691.7986 ms
+2018-07-26 18:25:48.254  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.5766 ms，插入数据耗时：727.9373 ms，总耗时：732.5139 ms
+2018-07-26 18:25:48.952  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6639 ms，插入数据耗时：694.3727 ms，总耗时：698.0366 ms
+2018-07-26 18:25:49.625  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.8002 ms，插入数据耗时：668.0091 ms，总耗时：672.8093 ms
+2018-07-26 18:25:50.309  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.8909 ms，插入数据耗时：678.297 ms，总耗时：683.1879 ms
+2018-07-26 18:25:50.973  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6174 ms，插入数据耗时：660.1139 ms，总耗时：663.7313 ms
+2018-07-26 18:25:51.707  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.3531 ms，插入数据耗时：728.5642 ms，总耗时：733.9173 ms
+2018-07-26 18:25:52.356  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.0066 ms，插入数据耗时：643.6437 ms，总耗时：648.6503 ms
+2018-07-26 18:25:53.026  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5645 ms，插入数据耗时：666.9393 ms，总耗时：670.5038 ms
+2018-07-26 18:25:53.699  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.056 ms， 插入数据耗时：668.8836 ms，总耗时：672.9396 ms
+2018-07-26 18:25:54.348  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.6073 ms，插入数据耗时：644.3153 ms，总耗时：648.9226 ms
+2018-07-26 18:25:55.056  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：12.9092 ms 插入数据耗时：695.044 ms，总耗时：707.9532 ms
+2018-07-26 18:25:55.740  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.3789 ms，插入数据耗时：680.3673 ms，总耗时：683.7462 ms
+2018-07-26 18:25:56.412  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.3718 ms，插入数据耗时：666.98 ms，总耗时：671.3518 ms
+2018-07-26 18:25:57.154  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.4653 ms，插入数据耗时：737.5957 ms，总耗时：742.061 ms
+2018-07-26 18:25:57.824  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5404 ms，插入数据耗时：665.8777 ms，总耗时：669.4181 ms
+2018-07-26 18:25:58.518  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2547 ms，插入数据耗时：690.9361 ms，总耗时：694.1908 ms
+2018-07-26 18:25:59.181  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.3948 ms，插入数据耗时：658.2432 ms，总耗时：662.638 ms
+2018-07-26 18:25:59.840  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.7323 ms，插入数据耗时：653.7743 ms，总耗时：658.5066 ms
+2018-07-26 18:26:00.524  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4267 ms，插入数据耗时：680.8189 ms，总耗时：684.2456 ms
+2018-07-26 18:26:01.187  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2997 ms，插入数据耗时：659.7209 ms，总耗时：663.0206 ms
+2018-07-26 18:26:01.939  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4449 ms，插入数据耗时：748.0432 ms，总耗时：751.4881 ms
+2018-07-26 18:26:02.568  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.586 ms， 插入数据耗时：625.3829 ms，总耗时：628.9689 ms
+2018-07-26 18:26:03.208  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2389 ms，插入数据耗时：636.2791 ms，总耗时：639.518 ms
+2018-07-26 18:26:03.920  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.3619 ms，插入数据耗时：706.7949 ms，总耗时：712.1568 ms
+2018-07-26 18:26:04.604  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2303 ms，插入数据耗时：680.743 ms，总耗时：683.9733 ms
+2018-07-26 18:26:05.329  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.0428 ms，插入数据耗时：720.3478 ms，总耗时：724.3906 ms
+2018-07-26 18:26:06.009  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.895 ms， 插入数据耗时：676.1401 ms，总耗时：680.0351 ms
+2018-07-26 18:26:06.681  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6098 ms，插入数据耗时：668.6755 ms，总耗时：672.2853 ms
+2018-07-26 18:26:07.331  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.7343 ms，插入数据耗时：645.8275 ms，总耗时：649.5618 ms
+2018-07-26 18:26:07.992  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.3348 ms，插入数据耗时：655.5658 ms，总耗时：660.9006 ms
+2018-07-26 18:26:08.702  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2688 ms，插入数据耗时：706.5324 ms，总耗时：709.8012 ms
+2018-07-26 18:26:09.396  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6301 ms，插入数据耗时：690.2521 ms，总耗时：693.8822 ms
+2018-07-26 18:26:10.069  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.0698 ms，插入数据耗时：666.8866 ms，总耗时：671.9564 ms
+2018-07-26 18:26:10.750  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.795 ms， 插入数据耗时：677.2931 ms，总耗时：681.0881 ms
+2018-07-26 18:26:11.400  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4228 ms，插入数据耗时：646.8865 ms，总耗时：650.3093 ms
+2018-07-26 18:26:12.102  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5454 ms，插入数据耗时：697.6546 ms，总耗时：701.2 ms
+2018-07-26 18:26:12.814  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.3907 ms，插入数据耗时：708.9933 ms，总耗时：712.384 ms
+2018-07-26 18:26:13.509  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5973 ms，插入数据耗时：691.4458 ms，总耗时：695.0431 ms
+2018-07-26 18:26:14.223  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.3051 ms，插入数据耗时：709.7466 ms，总耗时：713.0517 ms
+2018-07-26 18:26:14.890  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.1078 ms，插入数据耗时：663.4048 ms，总耗时：667.5126 ms
+2018-07-26 18:26:15.564  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.6093 ms，插入数据耗时：668.9154 ms，总耗时：673.5247 ms
+2018-07-26 18:26:16.263  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.6307 ms，插入数据耗时：693.9408 ms，总耗时：698.5715 ms
+2018-07-26 18:26:16.943  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2413 ms，插入数据耗时：677.4624 ms，总耗时：680.7037 ms
+2018-07-26 18:26:17.671  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4041 ms，插入数据耗时：723.9551 ms，总耗时：727.3592 ms
+2018-07-26 18:26:18.358  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.1988 ms，插入数据耗时：683.5431 ms，总耗时：686.7419 ms
+2018-07-26 18:26:18.978  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.3201 ms，插入数据耗时：616.8989 ms，总耗时：620.219 ms
+2018-07-26 18:26:19.690  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.8689 ms，插入数据耗时：707.7013 ms，总耗时：711.5702 ms
+2018-07-26 18:26:20.413  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：5.1345 ms，插入数据耗时：718.1357 ms，总耗时：723.2702 ms
+2018-07-26 18:26:21.158  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4919 ms，插入数据耗时：740.6806 ms，总耗时：744.1725 ms
+2018-07-26 18:26:21.887  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.5157 ms，插入数据耗时：724.277 ms，总耗时：728.7927 ms
+2018-07-26 18:26:22.541  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.2695 ms，插入数据耗时：650.9755 ms，总耗时：654.245 ms
+2018-07-26 18:26:23.244  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：10.3227 ms 插入数据耗时：692.2191 ms，总耗时：702.5418 ms
+2018-07-26 18:26:23.887  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4252 ms，插入数据耗时：639.5913 ms，总耗时：643.0165 ms
+2018-07-26 18:26:24.591  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.3771 ms，插入数据耗时：700.7733 ms，总耗时：704.1504 ms
+2018-07-26 18:26:25.301  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4997 ms，插入数据耗时：705.729 ms，总耗时：709.2287 ms
+2018-07-26 18:26:25.983  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.0061 ms，插入数据耗时：678.0866 ms，总耗时：682.0927 ms
+2018-07-26 18:26:26.685  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4854 ms，插入数据耗时：698.4007 ms，总耗时：701.8861 ms
+2018-07-26 18:26:27.311  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4289 ms，插入数据耗时：622.757 ms，总耗时：626.1859 ms
+2018-07-26 18:26:27.940  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.6197 ms，插入数据耗时：624.8307 ms，总耗时：628.4504 ms
+2018-07-26 18:26:28.679  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.045 ms， 插入数据耗时：735.2373 ms，总耗时：739.2823 ms
+2018-07-26 18:26:29.393  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.4831 ms，插入数据耗时：710.3911 ms，总耗时：713.8742 ms
+2018-07-26 18:26:30.184  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：4.7155 ms，插入数据耗时：785.5936 ms，总耗时：790.3091 ms
+2018-07-26 18:26:30.829  INFO 18444 --- [nio-9001-exec-4] com.zd.controller.UserController         : 使用List批量插入1000条数据，构造数据耗时：3.5068 ms，插入数据耗时：641.8568 ms，总耗时：645.3636 ms

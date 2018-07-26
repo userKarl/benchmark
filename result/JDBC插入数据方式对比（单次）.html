@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+var posList = [
+    'left', 'right', 'top', 'bottom',
+    'inside',
+    'insideTop', 'insideLeft', 'insideRight', 'insideBottom',
+    'insideTopLeft', 'insideTopRight', 'insideBottomLeft', 'insideBottomRight'
+];
+
+app.configParameters = {
+    rotate: {
+        min: -90,
+        max: 90
+    },
+    align: {
+        options: {
+            left: 'left',
+            center: 'center',
+            right: 'right'
+        }
+    },
+    verticalAlign: {
+        options: {
+            top: 'top',
+            middle: 'middle',
+            bottom: 'bottom'
+        }
+    },
+    position: {
+        options: echarts.util.reduce(posList, function (map, pos) {
+            map[pos] = pos;
+            return map;
+        }, {})
+    },
+    distance: {
+        min: 0,
+        max: 100
+    }
+};
+
+app.config = {
+    rotate: 90,
+    align: 'left',
+    verticalAlign: 'middle',
+    position: 'insideBottom',
+    distance: 15,
+    onChange: function () {
+        var labelOption = {
+            normal: {
+                rotate: app.config.rotate,
+                align: app.config.align,
+                verticalAlign: app.config.verticalAlign,
+                position: app.config.position,
+                distance: app.config.distance
+            }
+        };
+        myChart.setOption({
+            series: [{
+                label: labelOption
+            }, {
+                label: labelOption
+            }, {
+                label: labelOption
+            }, {
+                label: labelOption
+            }]
+        });
+    }
+};
+
+
+var labelOption = {
+    normal: {
+        show: true,
+        position: app.config.position,
+        distance: app.config.distance,
+        align: app.config.align,
+        verticalAlign: app.config.verticalAlign,
+        rotate: app.config.rotate,
+        formatter: '{c}  {name|{a}}',
+        fontSize: 16,
+        rich: {
+            name: {
+                textBorderColor: '#fff'
+            }
+        }
+    }
+};
+
+option = {
+	title: {
+        text: 'JDBC插入数据对比'
+    },
+    color: ['#003366', '#006699', '#4cabce', '#e5323e', '#14321e', '#932324', '#2feda2', '#9ead23', '#4f231a'],
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {
+        data: ['循环插入','批量插入','队列单线程','队列4线程','队列8线程','队列16线程','队列32线程','合并SQL','事务+合并SQL']
+    },
+    toolbox: {
+        show: true,
+        orient: 'vertical',
+        left: 'right',
+        top: 'center',
+        feature: {
+            mark: {show: true},
+            dataView: {show: true, readOnly: false},
+            magicType: {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+            restore: {show: true},
+            saveAsImage: {show: true}
+        }
+    },
+    calculable: true,
+    xAxis: [
+        {
+			name: '数据量',
+            type: 'category',
+            axisTick: {show: false},
+            data: ['100','1000','10000','100000','1000000']
+        }
+    ],
+    yAxis: [
+        {
+			name: '时间/ms',
+            type: 'value'
+        }
+    ],
+    series: [
+        {
+            name: '循环插入',
+            type: 'bar',
+            barGap: 0,
+            label: labelOption,
+            data: [369.3517,778.7144,7335.2583,75304.5504]
+        },
+        {
+            name: '批量插入',
+            type: 'bar',
+            label: labelOption,
+            data: [85.7567,687.8868,6569.3708,65323.9028]
+        },
+        {
+            name: '队列单线程',
+            type: 'bar',
+            label: labelOption,
+            data: [333.7103,881.8588,7979.7168,78768.2788]
+        }   ,
+        {
+            name: '队列4线程',
+            type: 'bar',
+            label: labelOption,
+            data: [262.8889,206.9932,1914.971,18467.2485,183485.5542]
+        }   ,
+        {
+            name: '队列8线程',
+            type: 'bar',
+            label: labelOption,
+            data: [267.1492,128.945,1076.0546,10744.4734,101796.1111]
+        }   ,
+        {
+            name: '队列16线程',
+            type: 'bar',
+            label: labelOption,
+            data: [23.0729,75.3805,645.4219,6217.2337,68653.782]
+        }   ,
+        {
+            name: '队列32线程',
+            type: 'bar',
+            label: labelOption,
+            data: [24.1559,74.8354,500.4832,5550.6092,54439.3225]
+        }   ,
+        {
+            name: '合并SQL',
+            type: 'bar',
+            label: labelOption,
+            data: [16.4605,46.4477,652.9116,3313.9496,33750.6934]
+        }   ,
+        {
+            name: '事务+合并SQL',
+            type: 'bar',
+            label: labelOption,
+            data: [14.975,44.0795,668.64,2954.1439,31160.4886]
+        }           
+    ]
+};;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+   </body>
+</html>

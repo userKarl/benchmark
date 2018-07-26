@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+var colors = ['#5793f3', '#d14a61', '#675bba'];
+
+var data = echarts.dataTool.prepareBoxplotData([
+   
+    [17897.8427,	18003.4758,	18500.5392,	18484.7329,	17841.5892,	18195.361,	18139.0545,	18157.6662,	17874.329,	17604.0795,	17608.1215,	17245.6378,	17843.9701,	17790.8703,	17601.8413,	17374.0403,	17597.3107,	18004.3539
+	],
+	[9739.3948,	10275.539,	10041.682,	9773.332,	9832.9204,	9949.5272,	10222.872,	9875.8756,	9789.6213,	9769.7446
+	],
+	[10200.1995,	9842.9562,	9927.9085,	9932.5316,	9913.2275,	9934.9665,	9861.4415,	9698.4218,	9759.0289,	10092.6594,	9772.9463,	10013.4446
+	],
+	[9798.8115,	9786.3843,	9763.0982,	10056.479,	9781.1972,	9792.8651,	9815.1615,	9904.2098,	9699.3389,	9767.2953,	9707.5165,	9779.9267
+	],
+	[3649.6892,	3029.6188,	3053.8359,	3212.8269,	3113.7452,	3768.0557,	3169.9006,	3019.59,	3055.6969,	3064.3515,	2948.9465,	3016.6767,	3003.2332,	3068.669,	3080.4908
+	],
+	[3206.1284,	2992.0865,	2944.2391,	3049.2074,	3055.7105,	3041.3751,	2923.4815,	3186.4421,	2953.541,	2925.2719,	2973.4807,	2868.8624,	2986.5318,	3041.7861,	3070.3471,	2935.2498,	3026.8145,	3257.0783,	3025.1633,	2940.501,	3002.8284
+	]	
+]);
+
+option = {
+	color: colors,
+    title: [
+        {
+            text: '耗时对比',
+            left: 'center',
+        }
+    ],
+    tooltip: {
+        trigger: 'item',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    grid: {
+        left: '10%',
+        right: '10%',
+        bottom: '15%'
+    },
+    xAxis: {
+        type: 'category',
+		name: '数据量100000条',
+        data:['队列4线程','队列8线程','队列16线程','队列32线程','合并SQL','事务+合并SQL'],
+        boundaryGap: true,
+        nameGap: 30,
+        splitArea: {
+            show: false
+        },
+       
+        splitLine: {
+            show: false
+        }
+    },
+    yAxis: {
+        type: 'value',
+        name: '时间/ms',
+        splitArea: {
+            show: true
+        }
+    },
+    series: [
+        {
+            name: 'boxplot',
+            type: 'boxplot',
+            data: data.boxData,
+            tooltip: {
+                formatter: function (param) {
+                    return [
+                        'Experiment ' + param.name + ': ',
+                        'upper: ' + param.data[5],
+                        'Q3: ' + param.data[4],
+                        'median: ' + param.data[3],
+                        'Q1: ' + param.data[2],
+                        'lower: ' + param.data[1]
+                    ].join('<br/>')
+                }
+            }
+        },
+        {
+            name: 'outlier',
+            type: 'scatter',
+            data: data.outliers
+        }
+    ]
+};;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+   </body>
+</html>

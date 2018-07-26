@@ -1,0 +1,12 @@
+2018-07-26 18:21:35.956  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8075.3427 ms
+2018-07-26 18:21:44.042  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8085.9664 ms
+2018-07-26 18:21:52.088  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8045.4525 ms
+2018-07-26 18:22:00.154  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8066.119 ms
+2018-07-26 18:22:08.135  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：7980.2097 ms
+2018-07-26 18:22:15.643  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：7508.5139 ms
+2018-07-26 18:22:23.659  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8015.2572 ms
+2018-07-26 18:22:31.651  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：7991.7515 ms
+2018-07-26 18:22:39.660  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8009.0951 ms
+2018-07-26 18:22:47.759  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8099.286 ms
+2018-07-26 18:22:55.847  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：8087.3651 ms
+2018-07-26 18:23:03.739  INFO 18480 --- [nio-9001-exec-8] com.zd.controller.UserController         : 使用List循环插入10000条数据，耗时：7891.789 ms

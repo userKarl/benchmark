@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+app.title = '多 X 轴示例';
+
+var colors = ['#5793f3', '#d14a61', '#675bba'];
+
+
+option = {
+    color: colors,
+
+    tooltip: {
+        trigger: 'none',
+        axisPointer: {
+            type: 'cross'
+        }
+    },
+    legend: {
+        data:['不做处理','解析并添加至Map','解析计算并添加至Map']
+    },
+    grid: {
+        top: 70,
+        bottom: 50
+    },
+    xAxis: [
+        {
+            type: 'category',
+            axisTick: {
+                alignWithLabel: true
+            },
+            axisLine: {
+                onZero: false,
+                lineStyle: {
+                    color: colors[1]
+                }
+            },
+            axisPointer: {
+                label: {
+                    formatter: function (params) {
+                        return '降水量  ' + params.value
+                            + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
+                    }
+                }
+            },
+            data: ["2016-1", "2016-2", "2016-3", "2016-4", "2016-5", "2016-6", "2016-7", "2016-8", "2016-9", "2016-10", "2016-11", "2016-12"]
+        },
+        {
+            type: 'category',
+            axisTick: {
+                alignWithLabel: true
+            },
+            axisLine: {
+                onZero: false,
+                lineStyle: {
+                    color: colors[0]
+                }
+            },
+            axisPointer: {
+                label: {
+                    formatter: function (params) {
+                        return '降水量  ' + params.value
+                            + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
+                    }
+                }
+            },
+            data: ["2015-1", "2015-2", "2015-3", "2015-4", "2015-5", "2015-6", "2015-7", "2015-8", "2015-9", "2015-10", "2015-11", "2015-12"]
+        }
+    ],
+    yAxis: [
+        {
+            type: 'value'
+        }
+    ],
+    series: [
+        {
+            name:'不做处理',
+            type:'line',
+            xAxisIndex: 1,
+            smooth: true,
+            data: [4.99269485473632,	4.98945999145507,	4.98317718505859,	4.99202728271484,	4.98688507080078,	4.98490905761718,	5.16588973999023,	5.37707901000976,	5.63764953613281,	5.67367553710937,	5.68843460083007,	5.69052124023437,	5.69482040405273,	5.69282531738281,	5.69475173950195,	5.6955223083496,	5.69425201416015,	5.69521331787109,	5.69987869262695,	5.71728515625,	5.71906280517578,	5.73315048217773,	5.73309707641601,	5.74259185791015,	5.73816299438476,	5.73670196533203,	5.73627090454101,	5.73609542846679,	5.73591613769531,	5.73465728759765,	5.73094940185546,	5.73171234130859,	5.73160171508789,	5.73134613037109,	5.73103713989257,	5.73118209838867,	5.73114395141601,	5.7314338684082,	5.74026489257812,	5.73832321166992,	5.74665451049804,	5.74645614624023,	5.74328994750976,	5.7400894165039,	5.73957824707031,	5.74415588378906,	5.74337005615234,	5.74312210083007,	5.74195861816406,	5.74124526977539]
+        },
+        {
+            name:'解析并添加至Map',
+            type:'line',
+            smooth: true,
+            data: [5.2778091430664,	5.27750396728515,	5.27685928344726,	5.27676391601562,	5.28610229492187,	5.29260635375976,	5.28960037231445,	5.37857437133789,	5.64946365356445,	5.8023567199707,	6.0540771484375,	6.09083557128906,	6.14161682128906,	6.18588638305664,	6.23650741577148,	6.23536682128906,	6.23612976074218,	6.24063873291015,	6.26703262329101,	6.27920913696289,	6.28167724609375,	6.31258392333984,	6.31402587890625,	6.31404876708984,	6.32276153564453,	6.32794952392578,	6.34108352661132,	6.36566925048828,	6.37939834594726,	6.39540863037109,	6.42175674438476,	6.46104049682617,	6.53062057495117,	6.56063079833984,	6.5944480895996,	6.62641143798828,	6.6316795349121,	6.63175582885742,	6.63031387329101,	6.63653564453125,	6.66906356811523,	6.72705459594726,	6.74766159057617,	6.7476577758789,	6.74760437011718,	6.74732208251953,	6.74767684936523,	6.75137329101562,	6.75500106811523,	6.81468963623046]
+        },
+		{
+            name:'解析计算并添加至Map',
+            type:'line',
+            smooth: true,
+            data: [5.02141952514648,	5.32044601440429,	5.56680679321289,	5.72199249267578,	5.83344650268554,	6.07738876342773,	6.13640594482421,	6.14064025878906,	6.13788604736328,	6.15200424194335,	6.15947341918945,	6.1915168762207,	6.2579345703125,	6.25945281982421,	6.25920104980468,	6.27362823486328,	6.29151153564453,	6.29451751708984,	6.32475662231445,	6.3389549255371,	6.35460662841796,	6.35296249389648,	6.3544921875,	6.36636734008789,	6.36824798583984,	6.3840217590332,	6.4610366821289,	6.5066795349121,	6.50815200805664,	6.52022171020507,	6.52644348144531,	6.52606201171875,	6.49500274658203,	6.4795799255371,	6.48483276367187,	6.4906997680664,	6.50040054321289,	6.49930953979492,	6.50397109985351,	6.51636886596679,	6.54041671752929,	6.63406372070312,	6.63944244384765,	6.64076232910156,	6.70226287841796,	6.71132659912109,	6.71078491210937,	6.71131515502929,	6.8299331665039,	6.82951354980468]
+        }
+    ]
+};
+;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+   </body>
+</html>

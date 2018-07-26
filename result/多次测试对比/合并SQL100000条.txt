@@ -1,0 +1,15 @@
+2018-07-26 19:08:03.613  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3649.6892 ms
+2018-07-26 19:08:06.643  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3029.6188 ms
+2018-07-26 19:08:09.697  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3053.8359 ms
+2018-07-26 19:08:12.910  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3212.8269 ms
+2018-07-26 19:08:16.024  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3113.7452 ms
+2018-07-26 19:08:19.792  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3768.0557 ms
+2018-07-26 19:08:22.962  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3169.9006 ms
+2018-07-26 19:08:25.982  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3019.59 ms
+2018-07-26 19:08:29.038  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3055.6969 ms
+2018-07-26 19:08:32.102  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3064.3515 ms
+2018-07-26 19:08:35.052  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：2948.9465 ms
+2018-07-26 19:08:38.069  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3016.6767 ms
+2018-07-26 19:08:41.072  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3003.2332 ms
+2018-07-26 19:08:44.141  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3068.669 ms
+2018-07-26 19:08:47.222  INFO 16840 --- [nio-9001-exec-5] com.zd.controller.UserController         : 使用JDBC合并SQL，插入100000条数据，耗时：3080.4908 ms

@@ -1,0 +1,12 @@
+2018-07-26 18:31:35.478  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：47.1024 ms，插入数据耗时：7633.6447 ms，总耗时：7680.7471 ms
+2018-07-26 18:31:43.238  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：38.1318 ms，插入数据耗时：7721.4353 ms，总耗时：7759.5671 ms
+2018-07-26 18:31:51.091  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：43.1699 ms，插入数据耗时：7809.5346 ms，总耗时：7852.7045 ms
+2018-07-26 18:31:59.038  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：45.9444 ms，插入数据耗时：7901.099 ms，总耗时：7947.0434 ms
+2018-07-26 18:32:06.685  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：38.9679 ms，插入数据耗时：7607.4968 ms，总耗时：7646.4647 ms
+2018-07-26 18:32:14.561  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：37.6219 ms，插入数据耗时：7838.6796 ms，总耗时：7876.3015 ms
+2018-07-26 18:32:22.199  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：41.7837 ms，插入数据耗时：7596.3575 ms，总耗时：7638.1412 ms
+2018-07-26 18:32:29.995  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：37.5487 ms，插入数据耗时：7758.5085 ms，总耗时：7796.0572 ms
+2018-07-26 18:32:37.741  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：37.537 ms， 插入数据耗时：7708.0287 ms，总耗时：7745.5657 ms
+2018-07-26 18:32:45.650  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：44.2795 ms，插入数据耗时：7864.5594 ms，总耗时：7908.8389 ms
+2018-07-26 18:32:53.457  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：35.6491 ms，插入数据耗时：7770.6251 ms，总耗时：7806.2742 ms
+2018-07-26 18:33:01.352  INFO 25168 --- [nio-9001-exec-3] com.zd.controller.UserController         : 使用队列插入10000条数据，构造数据耗时：43.0728 ms，插入数据耗时：7852.1963 ms，总耗时：7895.2691 ms
